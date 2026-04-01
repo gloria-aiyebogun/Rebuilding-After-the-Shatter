@@ -1,5 +1,15 @@
-# Preface {.unnumbered}
+---
+title: "Rebuilding after the Shatter"
+author: "Gloria Aiyebogun"
+date: "2026-04-01"
+---
 
-This is a Quarto book.
+*This book is dedicated to every woman who has ever felt broken by love — and to the warrior within her who refused to stay down.*
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+To the woman who loved deeply, got hurt, and still chose to heal — this is for you.
+
+You are not alone. Your pain is valid. Your healing is possible.
+
+And the shattering? It was never the end of your story.
+
+It was the beginning.
