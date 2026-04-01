@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Rebuilding After the Shatter"
+  title: "Rebuilding after the Shatter"
   author: "Gloria Aiyebogun"
   date: "2026-04-01"
   chapters:
@@ -16,7 +16,7 @@ format:
   # 1. KINDLE EBOOK DESIGN (EPUB)
   # ----------------------------------
   epub:
-    cover-image: cover.jpg  # Place a cover.jpg in your folder for the eBook
+    cover-image: Cover.png  # Place a cover.jpg in your folder for the eBook
     toc: true
     number-sections: false  # Keeps chapter titles clean without numbers (e.g., just "Introduction")
 
