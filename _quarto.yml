@@ -2,24 +2,39 @@ project:
   type: book
 
 book:
-  title: "Rebuilding after the Shatter"
+  title: "Rebuilding After the Shatter"
   author: "Gloria Aiyebogun"
-  date: "4/1/2026"
+  date: "2026-04-01"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
 
-bibliography: references.bib
-
 format:
-  html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
+  # ----------------------------------
+  # 1. KINDLE EBOOK DESIGN (EPUB)
+  # ----------------------------------
+  epub:
+    cover-image: cover.jpg  # Place a cover.jpg in your folder for the eBook
+    toc: true
+    number-sections: false  # Keeps chapter titles clean without numbers (e.g., just "Introduction")
 
+  # ----------------------------------
+  # 2. PAPERBACK DESIGN (PDF)
+  # ----------------------------------
+  pdf:
+    documentclass: book
+    toc: true
+    number-sections: false
+    mainfont: "Times New Roman"  # A classic, highly readable print font
+    fontsize: 11pt               # Standard comfortable reading size
+    geometry:
+      - paperwidth=6in
+      - paperheight=9in
+      - inner=0.875in            # The Gutter: Extra space so text isn't lost in the book's fold
+      - outer=0.5in              # Outside margin
+      - top=0.75in
+      - bottom=0.75in
 
 
