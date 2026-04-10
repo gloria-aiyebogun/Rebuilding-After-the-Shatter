@@ -1,0 +1,9 @@
+/* Justified body text for web version */
+p {
+  text-align: justify;
+}
+
+/* Paragraph spacing — nonfiction style */
+p + p {
+  margin-top: 0.8em;
+}

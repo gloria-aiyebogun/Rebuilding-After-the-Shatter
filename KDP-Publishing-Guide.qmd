@@ -1,0 +1,476 @@
+---
+title: "How to Publish on Amazon KDP"
+subtitle: "A Step-by-Step Guide for *Rebuilding after the Shatter*"
+author: "Prepared for Gloria Ichoja Aiyebogun"
+date: "April 2026"
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Heros"
+    fontsize: 11pt
+    toc: true
+    toc-title: "Contents"
+    number-sections: true
+    geometry:
+      - margin=2.5cm
+    colorlinks: true
+    linkcolor: "blue"
+    include-in-header:
+      text: |
+        \usepackage{mdframed}
+        \usepackage{xcolor}
+        \definecolor{notebg}{RGB}{255, 248, 235}
+        \definecolor{noteborder}{RGB}{155, 126, 90}
+        \definecolor{stepbg}{RGB}{235, 245, 255}
+        \definecolor{stepborder}{RGB}{70, 130, 180}
+        \newenvironment{notebox}{
+          \begin{mdframed}[backgroundcolor=notebg,linecolor=noteborder,linewidth=2pt,
+            innerleftmargin=10pt,innerrightmargin=10pt,innertopmargin=8pt,innerbottommargin=8pt]
+          \textbf{Important:}
+        }{\end{mdframed}}
+---
+
+\newpage
+
+# Before You Begin
+
+This guide walks you through publishing *Rebuilding after the Shatter* on Amazon KDP as both a **Kindle ebook** and a **print paperback**. All the metadata — title, description, keywords, categories — is already written out below. You only need to copy and paste.
+
+You will need:
+
+- A computer with internet access
+- The two files from the `_book/` folder:
+  - `Rebuilding-after-the-Shatter.epub` (for the Kindle ebook)
+  - `Rebuilding-after-the-Shatter.pdf` (for the paperback interior)
+  - `Cover.png` (the cover image)
+- A bank account or Wise/Payoneer account for royalty payments
+
+\bigskip
+
+**Estimated time:** 2–3 hours for both listings (ebook + paperback), including review.
+
+\newpage
+
+# Step 1: Create Your KDP Account
+
+1. Open your browser and go to **https://kdp.amazon.com**
+
+2. Click **Sign in** in the top right corner.
+
+3. If you already have an Amazon account (for shopping), use those same login details. If not, click **Create your Amazon account** and fill in your name, email address, and a password.
+
+4. Once signed in, KDP will ask you to complete your account setup. Click **Get started**.
+
+\bigskip
+
+## 1.1 Enter Your Tax Information (W-8BEN Form)
+
+This is required for all non-US authors. It is not complicated — it simply confirms you are not a US taxpayer.
+
+1. On the KDP dashboard, click your account name (top right) → **Account**
+2. Scroll down to **Tax information** → click **View/Provide tax information**
+3. Select:
+   - **Individual** (not company)
+   - **Non-US person**
+4. You will be taken to the **W-8BEN** form. Fill in:
+   - **Name:** Gloria Ichoja Aiyebogun
+   - **Country of citizenship:** Nigeria
+   - **Permanent address:** your address in Abuja, Nigeria
+   - **Tax Identification Number:** leave blank if you do not have a Nigerian TIN, or enter it if you do
+5. Check the certification box and click **Submit**
+
+\bigskip
+
+## 1.2 Set Up Payment (Bank Account)
+
+1. Still in **Account**, scroll to **Payment information** → **Add bank account**
+
+2. For Nigerian authors, **Wise** (wise.com) is the most reliable option for receiving Amazon royalties. If you do not have a Wise account:
+   - Go to **wise.com** and create a free account
+   - Add a USD balance — Wise will give you US bank details (routing number + account number)
+   - Use those US bank details in KDP
+
+3. Enter your bank details and click **Save**
+
+\newpage
+
+# Step 2: Set Up Your Author Page (Amazon Author Central)
+
+Do this before or immediately after publishing. It takes 15 minutes and makes your book listing look professional.
+
+1. Go to **https://authorcentral.amazon.com**
+2. Sign in with the same Amazon account
+3. Click **Join now**
+4. Search for your name — once your book is live, it will appear here and you can claim it
+5. Add:
+   - **Author photo** — a clear, professional photo of Gloria
+   - **Biography** — paste the text below:
+
+\bigskip
+
+> Gloria Ichoja Aiyebogun holds a Bachelor of Science in General and Applied Psychology and a Master's degree in Social and Terrorism Psychology, both from the University of Jos, Nigeria. She is a public health and mental health practitioner with expertise in psychological wellbeing, trauma, and community-based advocacy. For nearly a decade she worked as an online counsellor for adolescents, and has conducted research on gender-based violence with NGOs across Nigeria. She lives in Abuja, Nigeria.
+
+\newpage
+
+# Step 3: Publish the Kindle Ebook
+
+On the KDP dashboard, click the yellow **Create** button → **Kindle ebook**
+
+You will go through three panels: **Details**, **Content**, and **Pricing**.
+
+\bigskip
+
+## Panel 1: Ebook Details
+
+Fill in each field exactly as shown below.
+
+\bigskip
+
+**Language:** English
+
+\bigskip
+
+**Book title:** Rebuilding after the Shatter
+
+\bigskip
+
+**Subtitle:** A Woman's Guide to Healing from Heartbreak, Reclaiming Her Worth, and Living in Emotional Freedom
+
+\bigskip
+
+**Series:** Leave blank
+
+\bigskip
+
+**Edition number:** Leave blank
+
+\bigskip
+
+**Author:** Gloria Aiyebogun
+
+*(Click Add contributors if you want to add a second name, otherwise leave as is)*
+
+\bigskip
+
+**Description:** Copy and paste the text below exactly — including the HTML tags, which Amazon uses to format the listing:
+
+\bigskip
+
+```
+Have you been lying awake at night wondering if the pain will
+ever stop?
+
+Heartbreak doesn't just break your heart — it shakes your entire
+world. It leaves you questioning your worth, your future, and
+everything you thought you knew about love. If you've ever felt
+completely shattered by the end of a relationship,
+<em>Rebuilding after the Shatter</em> was written for you.
+
+In this compassionate and deeply practical guide, psychologist
+Gloria Aiyebogun walks with you through the full arc of healing
+— from the raw, aching pain of loss to the quiet, powerful
+freedom of a life rebuilt on your own terms. Drawing on
+psychological insight and genuine empathy, she offers not quick
+fixes, but honest companionship and real tools for the journey.
+
+<strong>Inside these pages, you will:</strong>
+
+<ul>
+<li>Understand why heartbreak hurts so deeply — and why your
+    pain is completely valid</li>
+<li>Learn how to break free from the silence and suppression
+    that keep you stuck</li>
+<li>Release the past without losing yourself in the process</li>
+<li>Heal the invisible wounds of rejection, betrayal, and
+    self-blame</li>
+<li>Rebuild your confidence and rediscover your worth from the
+    inside out</li>
+<li>Find wholeness again — on your own terms, at your own
+    pace</li>
+<li>Open your heart to love again, wisely and without fear</li>
+<li>Live in genuine emotional freedom — calm, grounded, and
+    fully yourself</li>
+</ul>
+
+Each chapter ends with a personal reflection exercise that
+gently guides you deeper into your own healing. This isn't just
+a book to read — it's a companion to return to again and again.
+
+<strong>You are not broken. You are becoming.</strong>
+
+<em>Rebuilding after the Shatter</em> is for every woman who
+has ever loved deeply and wondered if she would survive it.
+You will — and this book will walk every step with you.
+```
+
+\bigskip
+
+**Publishing rights:** Select **I own the copyright and I hold the necessary publishing rights**
+
+\bigskip
+
+**Keywords:** Enter each one on its own line:
+
+1. healing from heartbreak
+2. self-help for women
+3. moving on after breakup
+4. rebuilding self-worth after relationship
+5. emotional healing for women
+6. breakup recovery guide
+7. women's empowerment and healing
+
+\bigskip
+
+**Categories:** Click **Set categories** and navigate to:
+
+- **Category 1:** Browse → Self-Help → Personal Growth → Self-Esteem
+- **Category 2:** Browse → Self-Help → Relationships → Love & Romance
+
+\bigskip
+
+**Age and grade range:** Leave both blank
+
+\bigskip
+
+**Pre-order:** Select **I am ready to release my book now**
+
+\bigskip
+
+Click **Save and continue** to move to Panel 2.
+
+\bigskip
+
+## Panel 2: Ebook Content
+
+**ISBN:** Leave blank — Amazon assigns one automatically (called an ASIN)
+
+\bigskip
+
+**Upload manuscript:** Click **Upload ebook manuscript** and select:
+$$\texttt{\_book/Rebuilding-after-the-Shatter.epub}$$
+
+Wait for the upload to complete. Amazon will show a green tick when it is done.
+
+\bigskip
+
+**Kindle ebook cover:** Click **Upload your cover file** and select:
+$$\texttt{Cover.png}$$
+
+Wait for the upload. You will see a preview of the cover on the right.
+
+\bigskip
+
+**Kindle ebook preview:** Click **Launch previewer** to see how the book looks on different Kindle devices. Check that the chapter headings, text, and formatting all look correct. Close the previewer when done.
+
+\bigskip
+
+**DRM:** Select **Enable digital rights management** (protects against copying)
+
+\bigskip
+
+Click **Save and continue** to move to Panel 3.
+
+\bigskip
+
+## Panel 3: Ebook Pricing
+
+**KDP Select enrollment:** This gives Amazon exclusivity for 90 days in exchange for promotional tools (Kindle Unlimited, Countdown Deals).
+
+- Select **Enroll** if you want the book in Kindle Unlimited (many readers use this)
+- Select **Don't enroll** if you want to sell the EPUB on other platforms (Kobo, Apple Books, etc.) at the same time
+
+\bigskip
+
+**Territories:** Select **All territories (worldwide rights)**
+
+\bigskip
+
+**Royalty and pricing:**
+
+- Set **Primary marketplace** to your preferred currency (USD recommended for widest reach)
+- Select **70% royalty** (requires a price between $2.99 and $9.99)
+- Set price to **$6.99** or **$7.99** — competitive for self-help ebooks of this length
+- Amazon will automatically calculate prices for other marketplaces
+
+\bigskip
+
+**Matchbook price:** Leave blank
+
+\bigskip
+
+**Kindle book lending:** Leave enabled (standard)
+
+\bigskip
+
+Click **Publish your Kindle ebook**.
+
+Amazon will review the book within **24–72 hours** and send you an email when it is live.
+
+\newpage
+
+# Step 4: Publish the Paperback
+
+On the KDP dashboard, click **Create** → **Paperback**
+
+\bigskip
+
+## Panel 1: Paperback Details
+
+Fill in the same **title, subtitle, author, description, keywords, and categories** as the ebook (see Step 3 above — all fields are identical).
+
+\bigskip
+
+Click **Save and continue**.
+
+\bigskip
+
+## Panel 2: Paperback Content
+
+**ISBN:** Click **Get a free KDP ISBN**. Amazon will assign one. Note: this means the publisher name shown on Amazon will be *Independently published*. This is fine and very common.
+
+\bigskip
+
+**Publication date:** Leave blank (KDP fills this automatically)
+
+\bigskip
+
+**Print options:**
+
+| Setting | Choose |
+|---|---|
+| Interior type | Black & white |
+| Paper colour | White |
+| Trim size | 6 x 9 in (15.24 x 22.86 cm) |
+| Bleed settings | No bleed |
+| Paperback cover finish | Matte |
+
+\bigskip
+
+**Upload manuscript:** Click **Upload paperback manuscript** and select:
+$$\texttt{\_book/Rebuilding-after-the-Shatter.pdf}$$
+
+Wait for Amazon to process the file. It will check the page count and margins automatically. You should see a green tick with the page count confirmed.
+
+\bigskip
+
+**Book cover:** Click **Launch Cover Creator**
+
+Inside Cover Creator:
+
+1. Click **Use your own image** and upload `Cover.png`
+2. KDP will place it as the front cover automatically
+3. Select the **back cover** area and paste the following blurb:
+
+\bigskip
+
+> Heartbreak doesn't just break your heart. It shakes your identity, silences your voice, and leaves you wondering if you will ever feel whole again.
+>
+> *Rebuilding after the Shatter* is a compassionate, practical guide for every woman who has loved deeply and been left broken. Written by a psychologist with nearly a decade of counselling experience, this book walks with you through the full journey of healing — from understanding your pain, to releasing the past, to reclaiming your worth and opening your heart again.
+>
+> With eight gentle chapters and a personal reflection exercise in each one, this is not a book you simply read. It is a companion you return to — on the hard days, the quiet days, and the days when you finally begin to feel like yourself again.
+>
+> **You are not broken. You are becoming.**
+
+\bigskip
+
+4. Leave the **bottom-right corner of the back cover blank** — Amazon places the barcode there automatically
+5. Set the spine colour to match the cover background (dark purple)
+6. Click **Save and submit**
+
+\bigskip
+
+**Preview:** Click **Launch previewer** and flip through the interior pages. Check the first and last pages look correct.
+
+\bigskip
+
+Click **Save and continue**.
+
+\bigskip
+
+## Panel 3: Paperback Pricing
+
+**Territories:** Select **All territories (worldwide rights)**
+
+\bigskip
+
+**Primary marketplace:** USD
+
+\bigskip
+
+**Pricing:**
+
+- KDP will show you the **minimum list price** based on printing cost (approximately $5.50 for 48 pages at 6×9)
+- Set your price to **$9.99** — this earns a reasonable royalty while staying accessible
+- You can use the **royalty calculator** on the same page to see your exact earnings per copy
+
+\bigskip
+
+Click **Publish your paperback**.
+
+Amazon reviews paperbacks within **72 hours** and emails you when it is live.
+
+\newpage
+
+# Step 5: Link Both Listings on Author Central
+
+Once both the ebook and paperback are live (you will receive two confirmation emails):
+
+1. Go back to **https://authorcentral.amazon.com**
+2. Click **Books** → **Add more books**
+3. Search for *Rebuilding after the Shatter* — both listings should appear
+4. Click **This is my book** on each one
+5. Both will now appear on Gloria's author page
+
+Customers visiting the Amazon listing will see both the ebook and paperback options, and Gloria's author profile will show both.
+
+\newpage
+
+# Final Checklist
+
+Work through this list before clicking Publish on each format.
+
+\bigskip
+
+**Account setup**
+
+- [ ] KDP account created at kdp.amazon.com
+- [ ] W-8BEN tax form submitted
+- [ ] Bank / Wise account linked for royalty payments
+- [ ] Amazon Author Central page created with photo and bio
+
+\bigskip
+
+**Kindle ebook**
+
+- [ ] Title and subtitle entered correctly
+- [ ] Description pasted with HTML formatting
+- [ ] All 7 keywords entered
+- [ ] Both categories selected
+- [ ] EPUB uploaded: `Rebuilding-after-the-Shatter.epub`
+- [ ] Cover uploaded: `Cover.png`
+- [ ] Previewer checked — formatting looks correct
+- [ ] Price set to $6.99 or $7.99
+- [ ] Submitted
+
+\bigskip
+
+**Paperback**
+
+- [ ] Free KDP ISBN obtained
+- [ ] Print options set (6×9, B&W, white paper, matte cover)
+- [ ] PDF uploaded: `Rebuilding-after-the-Shatter.pdf`
+- [ ] Back cover blurb added in Cover Creator
+- [ ] Previewer checked — interior looks correct
+- [ ] Price set to $9.99
+- [ ] Submitted
+
+\bigskip
+
+**After publishing**
+
+- [ ] Both confirmation emails received from Amazon
+- [ ] Both listings claimed on Author Central
+- [ ] Listings visible on amazon.com
+- [ ] Amazon links added to the README on GitHub

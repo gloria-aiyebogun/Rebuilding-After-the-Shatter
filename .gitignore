@@ -8,3 +8,6 @@ _book/
 .venv/
 __pycache__/
 *.pyc
+
+# Private publishing guide — not for the public repo
+KDP-Publishing-Guide.pdf

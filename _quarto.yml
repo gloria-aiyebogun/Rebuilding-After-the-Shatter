@@ -42,6 +42,7 @@ format:
     toc-depth: 2
     number-sections: false
     cover-image: Cover.png
+    css: html.css
 
   # ----------------------------------
   # KINDLE EBOOK DESIGN (EPUB)
