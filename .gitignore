@@ -1,2 +1,10 @@
 /.quarto/
 **/*.quarto_ipynb
+
+# Rendered output — distributed via GitHub Releases, not tracked in git
+_book/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc

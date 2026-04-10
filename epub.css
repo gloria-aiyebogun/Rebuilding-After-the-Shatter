@@ -1,0 +1,156 @@
+/* ================================================
+   Rebuilding after the Shatter
+   EPUB Stylesheet — Amazon KDP / Kindle
+   Matches PDF: TeX Gyre Pagella + warm-gold accents
+   ================================================ */
+
+/* --- Embed TeX Gyre Pagella (same font as PDF) --- */
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/texgyrepagella-regular.otf");
+}
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  font-style: italic;
+  font-weight: normal;
+  src: url("fonts/texgyrepagella-italic.otf");
+}
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/texgyrepagella-bold.otf");
+}
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  font-style: italic;
+  font-weight: bold;
+  src: url("fonts/texgyrepagella-bolditalic.otf");
+}
+
+/* --- Body text --- */
+body {
+  font-family: "TeX Gyre Pagella", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Paragraphs --- */
+p {
+  text-align: justify;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  orphans: 2;
+  widows: 2;
+}
+
+/* ===================================================
+   CHAPTER TITLES  (H1)
+   Centered, bold, with a short warm-gold rule below —
+   matches the PDF chapter heading style exactly.
+   =================================================== */
+h1 {
+  font-family: "TeX Gyre Pagella", Georgia, serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  line-height: 1.3;
+  page-break-before: always;
+  page-break-after: avoid;
+}
+
+/* Decorative warm-gold rule beneath chapter title */
+h1::after {
+  content: "";
+  display: block;
+  width: 30%;
+  margin: 0.55em auto 1.4em;
+  border-top: 0.5pt solid #9B7E5A;
+}
+
+/* ===================================================
+   SECTION HEADINGS  (## in markdown)
+   Bold italic — same feel as the PDF sections
+   =================================================== */
+h2 {
+  font-family: "TeX Gyre Pagella", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+  page-break-after: avoid;
+}
+
+/* ===================================================
+   SUB-SECTION HEADINGS  (### in markdown)
+   =================================================== */
+h3 {
+  font-family: "TeX Gyre Pagella", Georgia, serif;
+  font-size: 1.05em;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  page-break-after: avoid;
+}
+
+/* ===================================================
+   REFLECTION EXERCISE BLOCKQUOTES
+   Warm gold left border + italic — matches PDF style
+   =================================================== */
+blockquote {
+  font-style: italic;
+  margin: 1.5em 0.5em 1.5em 0;
+  padding: 0.7em 1em;
+  border-left: 2.5pt solid #9B7E5A;
+  line-height: 1.8;
+}
+
+blockquote p {
+  margin: 0;
+  text-align: left;
+}
+
+/* ===================================================
+   LISTS
+   =================================================== */
+ul, ol {
+  margin: 0.8em 0;
+  padding-left: 1.8em;
+}
+
+li {
+  margin: 0.4em 0;
+  line-height: 1.65;
+  text-align: left;
+}
+
+/* ===================================================
+   INLINE STYLES
+   =================================================== */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* ===================================================
+   HORIZONTAL RULES
+   =================================================== */
+hr {
+  border: none;
+  border-top: 0.5pt solid #ccc;
+  margin: 2em auto;
+  width: 40%;
+}

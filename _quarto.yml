@@ -1,12 +1,24 @@
 project:
   type: book
+  output-dir: _book
+
+lang: en
 
 book:
   title: "Rebuilding after the Shatter"
+  subtitle: "A Woman's Guide to Healing from Heartbreak, Reclaiming Her Worth, and Living in Emotional Freedom"
   author: "Gloria Aiyebogun"
-  date: "2026-04-01"
+  site-url: https://gloria-aiyebogun.github.io/Rebuilding-After-the-Shatter/
+  repo-url: https://github.com/gloria-aiyebogun/Rebuilding-After-the-Shatter
+  repo-actions: [issue]
+
+  description: >
+    A compassionate guide for women healing from heartbreak —
+    reclaiming self-worth, finding peace, and opening to love again.
+
   chapters:
     - index.qmd
+    - copyright.qmd
     - intro.qmd
     - chapter1.qmd
     - chapter2.qmd
@@ -17,16 +29,36 @@ book:
     - chapter7.qmd
     - chapter8.qmd
     - about.qmd
+    - acknowledgements.qmd
     - references.qmd
 
 format:
+  # ----------------------------------
+  # WEB VERSION (GitHub Pages)
+  # ----------------------------------
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    cover-image: Cover.png
+
   # ----------------------------------
   # KINDLE EBOOK DESIGN (EPUB)
   # ----------------------------------
   epub:
     cover-image: Cover.png
     toc: true
+    toc-depth: 1
     number-sections: false
+    lang: en
+    css: epub.css
+    epub-chapter-level: 1
+    epub-fonts:
+      - fonts/texgyrepagella-regular.otf
+      - fonts/texgyrepagella-italic.otf
+      - fonts/texgyrepagella-bold.otf
+      - fonts/texgyrepagella-bolditalic.otf
 
   # ----------------------------------
   # PAPERBACK DESIGN (PDF)
@@ -34,9 +66,14 @@ format:
   pdf:
     documentclass: book
     toc: true
+    toc-depth: 1
     number-sections: false
-    mainfont: "Times New Roman"
+    # TeX Gyre Pagella = Palatino clone; elegant, warm — ideal for self-help books
+    # Guaranteed available in any TeX Live installation
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Heros"
     fontsize: 11pt
+    linestretch: 1.3
     geometry:
       - paperwidth=6in
       - paperheight=9in
@@ -44,3 +81,4 @@ format:
       - outer=0.5in
       - top=0.75in
       - bottom=0.75in
+    include-in-header: pdf-preamble.tex
