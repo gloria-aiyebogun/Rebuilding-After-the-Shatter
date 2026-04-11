@@ -1,7 +1,8 @@
 /* ================================================
    Rebuilding after the Shatter
    EPUB Stylesheet — Amazon KDP / Kindle
-   Matches PDF: TeX Gyre Pagella + warm-gold accents
+   Mirrors PDF: TeX Gyre Pagella, 1.3 line spacing,
+   0.75em paragraph gap, no indent, warm-gold accents
    ================================================ */
 
 /* --- Embed TeX Gyre Pagella (same font as PDF) --- */
@@ -30,54 +31,62 @@
   src: url("fonts/texgyrepagella-bolditalic.otf");
 }
 
-/* --- Body text --- */
+/* ===================================================
+   BODY
+   line-height: 1.4 mirrors PDF's linestretch: 1.3
+   (slightly looser for screen readability)
+   =================================================== */
 body {
   font-family: "TeX Gyre Pagella", Georgia, serif;
   font-size: 1em;
-  line-height: 1.75;
+  line-height: 1.4;
   margin: 0;
   padding: 0;
 }
 
-/* --- Paragraphs --- */
+/* ===================================================
+   PARAGRAPHS
+   No indent + 0.75em gap below = matches PDF parskip
+   =================================================== */
 p {
   text-align: justify;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  text-indent: 0;
+  margin-top: 0;
+  margin-bottom: 0.75em;
   orphans: 2;
   widows: 2;
 }
 
 /* ===================================================
    CHAPTER TITLES  (H1)
-   Centered, bold, with a short warm-gold rule below —
-   matches the PDF chapter heading style exactly.
+   Centered, bold, Large — with short warm-gold rule
+   below, matching PDF titlesec \chapter format
    =================================================== */
 h1 {
   font-family: "TeX Gyre Pagella", Georgia, serif;
-  font-size: 1.75em;
+  font-size: 1.6em;
   font-weight: bold;
   font-style: normal;
   text-align: center;
   margin-top: 3em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   line-height: 1.3;
   page-break-before: always;
   page-break-after: avoid;
 }
 
-/* Decorative warm-gold rule beneath chapter title */
+/* Decorative warm-gold rule — mirrors PDF \rule{0.3\textwidth}{0.6pt} */
 h1::after {
   content: "";
   display: block;
   width: 30%;
-  margin: 0.55em auto 1.4em;
-  border-top: 0.5pt solid #9B7E5A;
+  margin: 0.55em auto 1.5em;
+  border-top: 0.6pt solid #9B7E5A;
 }
 
 /* ===================================================
    SECTION HEADINGS  (## in markdown)
-   Bold italic — same feel as the PDF sections
+   Bold italic — mirrors PDF \large\bfseries\itshape
    =================================================== */
 h2 {
   font-family: "TeX Gyre Pagella", Georgia, serif;
@@ -86,16 +95,17 @@ h2 {
   font-style: italic;
   text-align: left;
   margin-top: 2em;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.75em;
   page-break-after: avoid;
 }
 
 /* ===================================================
-   SUB-SECTION HEADINGS  (### in markdown)
+   SUBSECTION HEADINGS  (### in markdown)
+   Bold normal — mirrors PDF \normalsize\bfseries
    =================================================== */
 h3 {
   font-family: "TeX Gyre Pagella", Georgia, serif;
-  font-size: 1.05em;
+  font-size: 1em;
   font-weight: bold;
   font-style: normal;
   margin-top: 1.5em;
@@ -105,45 +115,45 @@ h3 {
 
 /* ===================================================
    REFLECTION EXERCISE BLOCKQUOTES
-   Warm gold left border + italic — matches PDF style
+   Italic + warm-gold left border + subtle background tint
+   border-left: visible on most EPUB readers (not all Kindle)
+   background-color: fallback so it's always visually distinct
    =================================================== */
 blockquote {
   font-style: italic;
-  margin: 1.5em 0.5em 1.5em 0;
-  padding: 0.7em 1em;
-  border-left: 2.5pt solid #9B7E5A;
-  line-height: 1.8;
+  margin: 1.5em 0.5em 1.5em 0.5em;
+  padding: 0.75em 1em 0.75em 1.2em;
+  border-left: 3pt solid #9B7E5A;
+  background-color: #FAF6F0;
+  line-height: 1.5;
 }
 
 blockquote p {
   margin: 0;
+  text-indent: 0;
   text-align: left;
+  color: #3D2B1F;
 }
 
 /* ===================================================
    LISTS
    =================================================== */
 ul, ol {
-  margin: 0.8em 0;
+  margin: 0.75em 0;
   padding-left: 1.8em;
 }
 
 li {
-  margin: 0.4em 0;
-  line-height: 1.65;
+  margin: 0.3em 0;
+  line-height: 1.4;
   text-align: left;
 }
 
 /* ===================================================
-   INLINE STYLES
+   INLINE
    =================================================== */
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: bold;
-}
+em     { font-style: italic; }
+strong { font-weight: bold; }
 
 /* ===================================================
    HORIZONTAL RULES

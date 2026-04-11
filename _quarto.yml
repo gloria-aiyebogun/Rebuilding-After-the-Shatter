@@ -55,6 +55,8 @@ format:
     lang: en
     css: epub.css
     epub-chapter-level: 1
+    filters:
+      - epub-blockquote.lua
     epub-fonts:
       - fonts/texgyrepagella-regular.otf
       - fonts/texgyrepagella-italic.otf
