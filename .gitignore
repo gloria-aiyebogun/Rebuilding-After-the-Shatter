@@ -11,3 +11,6 @@ __pycache__/
 
 # Private publishing guide — not for the public repo
 KDP-Publishing-Guide.pdf
+
+# Rendered DOCX — distributed via GitHub Releases, not tracked in git
+_book/*.docx

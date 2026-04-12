@@ -64,6 +64,16 @@ format:
       - fonts/texgyrepagella-bolditalic.otf
 
   # ----------------------------------
+  # KINDLE DIRECT PUBLISHING (DOCX)
+  # Word format accepted by KDP for ebook upload
+  # ----------------------------------
+  docx:
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    highlight-style: none
+
+  # ----------------------------------
   # PAPERBACK DESIGN (PDF)
   # ----------------------------------
   pdf:
